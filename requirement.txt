@@ -1,0 +1,8 @@
+torch==1.8.1
+torchvision==0.9.1
+torchaudio==0.8.1
+nats_bench
+nas-bench-201
+numpy
+ptflops
+tensorflow
