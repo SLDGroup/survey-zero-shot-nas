@@ -55,6 +55,8 @@ Go to `~/dataset/img16/ImageNet16/`
 Go to `~/dataset/nasbench/`:
 - Download NASBench-101: `wget https://storage.googleapis.com/nasbench/nasbench_full.tfrecord`
 - Download NASBench-201: `gdown https://drive.google.com/uc?id=16Y0UwGisiouVRxW-W5hEtbxmcHw_0hF_`
+
+
 Go to `~/dataset/nasbench/NATS`
 - Download NATS-Bench-SSS: `gdown https://drive.google.com/uc?id=1scOMTUwcQhAMa_IMedp9lTzwmgqHLGgA`
 
