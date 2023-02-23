@@ -62,8 +62,8 @@ Go to `~/dataset/nasbench/NATS`
 
 
 
-Optional (since NATS-Bench-TSS is same as NASBench-201): 
-- Download NATS-Bench-TSS: `gdown https://drive.google.com/uc?id=17_saCsj_krKjlCBLOJEpNtzPXArMCqxU`
+- Optional (since NATS-Bench-TSS is same as NASBench-201): 
+   - Download NATS-Bench-TSS: `gdown https://drive.google.com/uc?id=17_saCsj_krKjlCBLOJEpNtzPXArMCqxU`
 
 ### Usage
 ```python main.py --searchspace=$SEARCH_SPACE --dataset=$DATASET --data_path=$PATH_OF_DATASET --metric=$PROXY_NAME```
