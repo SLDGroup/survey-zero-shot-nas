@@ -1,7 +1,7 @@
 # survey-zero-shot-nas
 
 <figure>
-<img src="./stat.svg" alt="Comparision of various NAS approaches" style="width:20%">
+<img src="./stat.svg" alt="Comparision of various NAS approaches" style="width:40%">
 <figcaption align = "center"><b>Fig.1 - Comparision of various NAS approaches</b></figcaption>
 </figure>
 
