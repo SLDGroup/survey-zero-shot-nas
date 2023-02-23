@@ -1,7 +1,7 @@
-
+# survey-zero-shot-nas
 
 <figure>
-<img src="./stat.svg" alt="Trulli" style="width:80%">
+<img src="./stat.svg" alt="Trulli" style="width:100%">
 <figcaption align = "center"><b>Fig.1 - Comparision of various NAS approaches</b></figcaption>
 </figure>
 
