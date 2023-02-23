@@ -31,7 +31,11 @@
 - [Extensible Proxy for Efficient NAS](https://arxiv.org/abs/2210.09459)
 - [ZiCo: Zero-shot NAS via Inverse Coefficient of Variation on Gradients](https://arxiv.org/abs/2301.11300)
 
-# Install
+
+## How to use this repo
+This repo is designed to evaluate different zero-shot proxied for various benchmarks.
+
+### Install
 ```pip install -r requirement.txt
 git clone https://github.com/google-research/nasbench
 cd nasbench
@@ -44,4 +48,20 @@ In the `nasbench` folder, you need to modify `import tensorflow as tf` into `imp
 ```
 Then install `nasbench`
 `pip install -e .`
+### Data and Benchmark download
+Go to `~/dataset/img16/ImageNet16/`
+- Download ImageNet16-120: `gdown https://drive.google.com/uc?id=1vZe9VD0Sv5kTw-lR5lT-cmjBSh4AuLAH`
 
+Go to `~/dataset/nasbench/`:
+- Download NASBench-101: `wget https://storage.googleapis.com/nasbench/nasbench_full.tfrecord`
+- Download NASBench-201: `gdown https://drive.google.com/uc?id=16Y0UwGisiouVRxW-W5hEtbxmcHw_0hF_`
+Go to `~/dataset/nasbench/NATS`
+- Download NATS-Bench-SSS: `gdown https://drive.google.com/uc?id=1scOMTUwcQhAMa_IMedp9lTzwmgqHLGgA`
+
+
+
+Optional (since NATS-Bench-TSS is same as NASBench-201): 
+- Download NATS-Bench-TSS: `gdown https://drive.google.com/uc?id=17_saCsj_krKjlCBLOJEpNtzPXArMCqxU`
+
+### Usage
+```python main.py --searchspace=$SEARCH_SPACE --dataset=$DATASET --data_path=$PATH_OF_DATASET --metric=$PROXY_NAME```
